@@ -1,0 +1,482 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+  	font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  	font-stretch: expanded;
+}
+
+/*Stil teksta*/
+
+ p {
+ 	font-family: 'Glory', sans-serif;
+ }
+
+
+/*Isprobavanje s w3*/
+
+@media print {
+  h1 {page-break-before: always;
+
+  }
+}
+
+
+/*Header*/
+.header {
+	width: auto;
+	height: auto;
+	background: #f5f4e6;
+
+}
+#malilogo {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.header > nav > ul > a {
+	display: flex;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+ul {
+	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+}
+
+#header-meni {
+	display: flex;
+}
+
+
+#header-meni a {
+	flex-grow: 1;	
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: black;
+	margin-top: 26px;
+	padding: 15px 40px;
+	font-size: 20px;
+}
+
+#header-meni a:hover,
+#header-meni a.active {
+	background: #EBECEC;
+	color: black;
+}
+
+.velikilogo {
+	height: 150px;
+	margin-left: 340px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	transform: rotateX(150deg);
+}
+
+.page h1 {
+	
+}
+
+.footer {
+	border: solid black 1px;
+}
+
+#mid-meni {
+	overflow: hidden;
+	display: flex;
+}
+
+#mid-meni ul a {
+	flex-grow: 1;
+	background: #f5f4e6;
+	color: grey;
+	padding: 10px 120px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	text-decoration-color: black;
+	list-style-type: none;
+}
+
+#mid-meni a:hover,
+#mid-meni a.active {
+	background: lightgrey;
+	color: black;
+}
+
+#text-meni {
+	text-decoration: none;
+	display: flex;
+
+}
+
+
+.center {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+}
+
+.center 
+
+.onama img {
+	height: auto;
+	width: auto;
+}
+
+/*Karijera css*/
+
+
+.upiskarijera {
+	display: block;
+	background: lightgrey;
+	color: black;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 600px;
+	te
+}
+
+.karijera {
+	font-style: oblique;
+}
+
+#usluge {
+	text-align: center;
+	text-decoration: ;
+}
+
+#uslugetekst {
+	display: block;
+	background: #f0efe9;
+	font-family: 'Glory', sans-serif;
+}
+#pocetna {
+	text-align: center;
+	color: #fffffff;
+	background: #F1F2F4;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#usluge {;
+	background-size: cover;
+	background-attachment: fixed;
+	text-decoration-style: dotted;
+	font-size:  25px;
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#karijera {
+	background: #F7F7F5;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+input {
+	display: none;	
+}
+
+input:checked+label:before{
+	content: url(https://icon-library.com/images/small-check-mark-icon/small-check-mark-icon-4.jpg);
+}
+
+
+#wrappp {
+	width: 600px;
+	background: black;
+	box-shadow: 3px 3px 3px silver inset;
+	margin: 50px auto;
+	border: 2px solid silver;
+}
+#wrappp div{
+	float: left;
+}
+
+#box1 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+		
+}
+
+
+#box2 {
+	width: 150px;
+	height: 150px;
+	background: red;
+}
+
+
+#box3 {
+	width: 150px;
+	height: 150px;
+	background: orange;
+}
+
+.card {
+	margin-left: 20px;
+	margin-top: 30px;
+
+}
+
+
+div.gallery {
+	margin-left: 70px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  background: #dbdbdb;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.naslov {
+	background: #fafafa;
+	text-align: center;
+	margin: 30px;
+}
+
+.borderbottom {
+	border-bottom: solid black 1px;
+}
+
+.footershop {
+	 margin: 70px;
+}
+
+
+.footer {
+	background: #F1F2F4;
+	width: auto;
+	height: 200px;
+
+}
+
+.concact {
+	border: 1px solid black;
+}
+
+
+.upiskarijera {
+
+}
+
+.prijava {
+	width: 700px;
+	height: 300px;
+	border: 1px solid black;
+	background: url();
+}
+
+.grid-usluge {
+	margin-top: 40px;
+	display: grid;
+	grid-template: "a b"
+	               "c d";
+  justify-content: space-evenly;
+}
+
+#usluga-1 {
+	grid-area: a;
+}
+
+#usluga-2 {
+	grid-area: b;
+}
+
+#usluga-3 {
+	grid-area: c;
+}
+
+#usluga-4 {
+	grid-area: d;
+}
+
+.usluge {
+	display: grid;
+	grid-template: "region";
+	align-content: stretch;
+	justify-content: stretch;
+}
+
+.usluge img {
+	grid-area: region;
+	justify-self: stretch;
+	align-self: stretch;
+	height: 300px;
+	width: 650px;
+	margin-bottom: 40px;
+}
+
+.usluge .text-holder {
+	grid-area: region;
+	justify-self: stretch;
+	align-self: stretch;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #F0F0F090;
+	opacity: 0.0;
+	transition: 500ms;
+}
+.usluge:hover .text-holder {
+	opacity: 1.0;
+}
+
+
+.footer {
+	border-top: 3px solid black;
+	background-color: #DCE0E6;
+	font-size: 18px;
+}
+
+.footer >.column {
+	display: flex;
+}
+
+.footer .footer-column {
+	flex-grow: 1;
+	flex-basis: 0;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.align-left {
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.align-center {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.align-right {
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+
+.contactpage {
+	height: 500px;
+	width: 800px;
+	margin-left: 370px;
+	margin-top: 70px;
+	background: #f2f2f2;
+	padding-top: 10px;
+}
+
+.contactmedia {
+	margin-top: 30px;
+	margin-left: 340px;
+}
+
+
+.form-control {
+	border: none;
+}
+
+.input-group {
+	margin-top: 30px;
+	margin-left: 120px;
+	width: 500px;
+}
+
+.mx-auto {
+	margin-top: 70px;
+} 
+
+.aboutus {
+	background-image: url(img/dnevni3.jpg);
+	height: 1000px;
+	width: 100%;
+}
+
+.au-opis {
+	width: 800px;
+	height: 300px;
+	border: 1px solid black;
+	margin-top: 180px;
+	margin-left: 700px;
+	background: #F6F6F6;
+	padding: 50px;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+
+/*---Izvedbeni projekt---*/
+
+#wrapp {
+	width: 700px;
+	height: 500px;
+	border: 3x solid black;
+	margin: 50px auto;
+}
+
+#current {
+	width: 100%;
+	height: 80%;
+	border: 3px solid black;
+	margin: 50px;
+	border-radius: 10px;
+	margin-left: 0px;
+
+}
+.thumb {
+	width: 70px;
+	height: 70px;
+	margin: 4px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+
+.idejno {
+	display: flex;
+	margin-left: 50px;
+	width: 1400px;
+	height: 600px;
+	background: linear-gradient(#fafafa,#c8ccc9);
+}
+.idejno2 {
+	border: 3px solid lightgrey;
+	width: 300px;
+	height: 400px;
+	font-size: 19px;
+	padding: 25px;
+	margin-left: 70px;
+	margin-top: 0px;
+	background: white;
+}
